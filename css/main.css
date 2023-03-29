@@ -5,9 +5,15 @@ html, body, h1{
 
 nav{
     width: 100%;
+    height: 50px;
     padding-left: 10%;
     padding-right: 10%;
-    background: none;
+    /* background-color: blue; */
+}
+
+.nav-con{
+    width: 50%;
+    float: right;
 }
 
 nav ul{
@@ -42,12 +48,16 @@ header{
 .half-text{
     margin-top: -70px;
     width: 400px;
-    height: 400px;
+    height: 500px;
     background-color: grey;
     color: white;
     text-align: center;
     align-items: center;
-    
+    padding-right: 20px;
+}
+
+.swap-buttonL{
+    float: left;
 }
 
 .col-3{
@@ -73,7 +83,9 @@ header{
     margin: left -10000px; 
 }
 
-
+.col-12 h4{
+    float: left;
+}
 
 .head-mid{
     margin-top: 100px;
@@ -88,17 +100,16 @@ header{
 
 .Shuffle-button{
     color: aqua;
-    float: right;
+    float: left;
     text-align: center;
-    padding-right: 700px;
-    margin-bottom: 300px;
+   
 }    
 
 
 
 .txt{
     margin-top: 700px;
-    width: 400px;
+    width: 30%;
     height: 500px;
     background-color: grey;
     color: white;
@@ -109,7 +120,7 @@ header{
 
 .touch{
     margin-top: 700px;
-    width: 700px;
+    width: 50%;
     height: 500px;
     background-color: grey;
     color: white;
@@ -118,6 +129,9 @@ header{
     float: left;  
 }
 
+.swap-buttonL{
+    padding-left: 100px;
+}
 
 header h1{
     color: white;
@@ -127,9 +141,7 @@ header h2{
     color: white;
 }
 
-.swap-buttonL{
-    margin-left: 25px;
-}
+
 
 .al1{
     background-image: url(../assets/NF_let_you_down_single_cover.jpg);
@@ -148,14 +160,12 @@ header h2{
     background-size: cover;
 }
 
-.head-mid2{
+.head-mid2 {
 margin-top: 200px; 
 float: left;
 }
 
-.col-12 h4{
-    float: left;
-}
+
 
 .container2{
     margin: 0 auto;
@@ -208,4 +218,10 @@ float: left;
 .container3{
     margin: 0 auto;
     padding-left: 300px;
+}
+
+.container4{
+    margin: 0 auto;
+    padding-left: 300px;
+    padding-top: 200px;
 }
