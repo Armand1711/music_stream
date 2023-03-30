@@ -269,3 +269,39 @@ float: left;
     padding-left: 300px;
     padding-top: 200px;
 }
+
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    
+    background-color: #2b2b2b;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.input-el{
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+ button{
+    width: 20% !important;
+    margin-left: 340px;
+}
+
+.container3, h4{
+    float: left;
+    padding-bottom: 50px;
+}
+
+.container3, h4{
+    float: left;
+    padding-bottom: 50px;
+}
