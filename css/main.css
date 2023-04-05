@@ -20,6 +20,7 @@ nav{
 
 .logo{
     padding-top: 40px;
+ 
 }
 
 nav ul{
@@ -38,6 +39,7 @@ nav ul{
     text-align: center;
     background-color: white;
     color: black;
+    padding-bottom: 30px;
 }
 
 .nav-con li:hover{
@@ -62,7 +64,7 @@ header{
     margin-top: -70px;
     width: 450px;
     height: 550px;
-    background-color: grey;
+    background-color: #2b2b2b;
     color: white;
     text-align: center;
     align-items: center;
@@ -102,6 +104,7 @@ header{
 
 .col-12 h4{
     float: left;
+    color: white;
 }
 
 .head-mid{
@@ -112,11 +115,12 @@ header{
 }
 
 .play-button{
-    color: aqua;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .Shuffle-button{
-    color: aqua;
+    padding-bottom: 30px;
     float: left;
     text-align: center;
    
@@ -128,18 +132,19 @@ header{
     margin-top: 700px;
     width: 30%;
     height: 500px;
-    background-color: grey;
+    background-color:black;
     color: white;
     text-align: center;
     margin: 1%;
     float: left; 
+    margin-bottom: 20px;
 }
 
 .touch{
     margin-top: 700px;
     width: 50%;
     height: 500px;
-    background-color: grey;
+    background-color: black;
     color: white;
     text-align: center;
     margin: 1%;
@@ -160,12 +165,7 @@ header h2{
 
 
 
-.al1{
-   
-    background-image: url(../assets/NF_let_you_down_single_cover.jpg);
-    background-size: cover;
-    background-position: center;
-}
+
 
 .overlay{
     
@@ -194,10 +194,16 @@ header h2{
     margin-top: 30px;
     color: white;
     font-family: sans-serif;
-    padding-top: 40px; 
+    padding-top: -15px; 
+    float: left;
 }
 
-r
+.al1{
+   
+    background-image: url(../assets/NF_let_you_down_single_cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .al2{
   
@@ -280,7 +286,7 @@ float: left;
     margin: 0 auto;
     padding-left: 300px;
     padding-top: 200px;
-    background-color: green;
+    background-color: black;
     
 }
 
@@ -288,7 +294,7 @@ float: left;
 form{
     width: 70%;
     margin: 0 auto;
-    background-color: #2b2b2b;
+    background-color: black;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 25px;
@@ -309,7 +315,123 @@ form{
     margin-left: 340px;
 }
 
-.popbody{
-    background-color: gray;
+
+
+.img2{
+    background-image: url(../assets/my_favourite_mix_album_cover.png);
+    background-size: cover;
 }
 
+.play-button {
+    height: 28px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #66fcf1;
+    color: black;
+}
+
+.play-button:hover{
+    background-color: darkcyan;
+}
+
+.Shuffle-button {
+    height: 28px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #66fcf1;
+    color: black;
+}
+
+.Shuffle-button:hover{
+    background-color: darkcyan;
+}
+
+.half-img{
+    margin-top: -70px;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    margin-right: 50px;
+    background-image: url(../assets/Flow-Vol.3_Helen_RGB_Final.jpg);
+    background-size: cover;
+}
+
+.half-text2{
+    margin-top: -70px;
+    width: 700px;
+    height: 500px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.popbody{
+    background-color: black;
+}
+
+.content2{
+    width: 480px;
+    height: 180px;
+     margin-top: 185px;
+     color: white;
+     font-family: sans-serif;
+     padding-top: -15px; 
+     float: left;
+     font-size: x-large;
+ }
+ 
+
+ .line-elment{
+    width: 500px;
+    height: 50px;
+    margin-top: 100px;
+    padding-top: 410px;
+    padding-left: 160px;
+ }
+
+ .line{
+    width: 100%;
+    height: 5px;
+    background-color: lightgray;
+    margin-top: 15px;
+ }
+
+.line-fill{
+    width: 50%;
+    height: 5px;
+    background-color: #66fcf1;
+}
+
+.marker{
+  width: 20px;
+  height: 20px;
+  background-color: #66fcf1;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: -12px;
+}
+
+footer{
+    float: right;
+    padding-right: 25px;
+}
